@@ -3,7 +3,7 @@ package practice1;
 public class TestMain {
 public static void main(String[] args) {
 	System.out.println("testmain");
-BMWCar bmw=new BMWCar("BMW",4);
+Car_BMW bmw=new Car_BMW("BMW",4);
 //I was trying to check whether method returns its value even after throw exception
 //conclusion: No it doesn't , because throw immediately when exception occurs and it doesnt move to the next line  
 try {

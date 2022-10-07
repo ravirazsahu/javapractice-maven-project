@@ -12,4 +12,7 @@ public abstract class AbstractCar {
 	}
 	public abstract int getNoofWheels();
 	public abstract String getModelname() throws Exception;
+	public abstract boolean isDiesel();
+	public abstract boolean isPetrol();
+	public abstract boolean isAutoParking();
 }

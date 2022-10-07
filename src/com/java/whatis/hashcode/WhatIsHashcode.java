@@ -2,6 +2,10 @@ package com.java.whatis.hashcode;
 
 import practice1.Employee;
 
+/* Some important resources I found while searching hashtable
+ * https://www.objectos.com.br/blog/how-to-implement-hash-table-in-java-part1.html 
+ * 
+ */
 public class WhatIsHashcode {
 
 	public WhatIsHashcode() {

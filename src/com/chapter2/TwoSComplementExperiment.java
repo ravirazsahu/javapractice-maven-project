@@ -1,9 +1,12 @@
-package com.chapter2;
+	package com.chapter2;
 
 import com.practice1.util.ConvertIntergerToBinary;
 import com.practice1.util.PrimitiveDataTypeCheck;
 
 /**
+ * two's complement applied only for negative numeric or all the numeric values
+ * below mentioned video may be silly but after 3:40 , his conversion of binary to decimal is a qustion mark
+ * https://www.youtube.com/watch?v=KPELCHTe_Lk
  * 
  * @author rabi
  *
