@@ -16,6 +16,13 @@ public class StringConstantPool {
 		System.out.println(kk==kk1);
 		System.out.println(kk.equalsIgnoreCase(kk1));
 		
+		String k="Fluffy";
+		String k1 =new String("Fluffy");
+		k=k.concat(" thing.");
+		k1=k1.concat(" things !!!");//does this changes the original string ?
+		System.out.println(k.intern());
+		System.out.println(k1);
+		
 //		assertThat()
 	}
 }
