@@ -4,15 +4,8 @@ public class HelloWorldPrinter extends Thread{
 	
 @Override
 public void run() {
-	printsimplehello();
-	
+	System.out.println("Hello World!"+ Thread.getAllStackTraces());
 }
-
-private synchronized void printsimplehello() {
-	System.out.println("Hello World! -- "+Thread.currentThread().getName());	
-}
-
-
 //	public void run() {
 //		
 //	}
