@@ -3,15 +3,15 @@ package interviewqus.java8.interfaceproblems;
 public class Reversestring_Infys {
 
 	public static void main(String[] args) {
-		
+		String val="POTS";
 		StringBuilder build=new StringBuilder();
-		build.append("Text");
+		build.append(val);
 		
 		build.reverse();
-		System.out.println(build.toString());
-		String val="Text";
-		String rev="";
-		char[] chr=val.toLowerCase().toCharArray();
+		System.out.println("SB >> "+build.toString());
+		
+//		String rev="";
+		char[] chr=val.toCharArray();
 		char[] chr1= new char[chr.length];
 		int j=0;
 		for(int i=chr.length-1;i>=0;i--) {

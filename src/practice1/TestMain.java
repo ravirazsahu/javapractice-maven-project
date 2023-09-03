@@ -8,6 +8,9 @@ Car_BMW bmw=new Car_BMW("BMW",4);
 //conclusion: No it doesn't , because throw immediately when exception occurs and it doesnt move to the next line  
 try {
 	bmw.getModelname();
+	bmw.isAutoParking();
+	bmw.isDiesel();
+	bmw.isPetrol();
 } catch (Exception e) {
 	// TODO Auto-generated catch block
 	e.printStackTrace();
