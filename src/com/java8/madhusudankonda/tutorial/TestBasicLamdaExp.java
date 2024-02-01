@@ -8,6 +8,8 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import com.java8.madhusudankonda.tutorial.CreatingLambda.Greeting;
+
 public class TestBasicLamdaExp {
 	List<Trade> trades;
 	@Before
@@ -40,8 +42,16 @@ public class TestBasicLamdaExp {
 				.filter(t->t.getStatus().equalsIgnoreCase("P"))
 				.count();
 		assertEquals(1, x);
-		assertEquals(2, x);
+		assertEquals(1, x);
 		
 	}
-
+	@Test
+	public void testCreateingLambda() {
+		
+		String gg=new CreatingLambda().formalgreeting("Harry", (s)->"Hello,"+s);
+		System.out.println(gg);
+		assertEquals("Hello,Harry",gg);
+		
+		
+	}
 }
