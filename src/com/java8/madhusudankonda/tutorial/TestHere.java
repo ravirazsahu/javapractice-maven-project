@@ -5,15 +5,22 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 
 public class TestHere {
-	
+
 	@Test
 	public void testCustomisedFunctionalInterface() {
-		ComponentFI comp=(s)->{
+		ComponentFI comp = (s) -> {
 			System.out.println(s);
-			return "Hi, "+s;
+			return "Hi, " + s;
 		};
-		String greeting=comp.find("Sam");
-		assertEquals("success","Hi, Sam", greeting);
+		String greeting = comp.find("Sam");
+		assertEquals("success", "Hi, Sam", greeting);
+	}
+
+	@Test
+	public void testmaxminwithintstreamqustion() {
+		LambdaMinMax l = new LambdaMinMax();
+		assertEquals("success", 6, l.getsum());
+
 	}
 
 }
